@@ -26,7 +26,7 @@ const Menu = () => {
                 </ul>
             </nav>
             {menuAberto && (
-                <div className="lg:hidden absolute top-20 left-0 w-full bg-gray-950 flex flex-col items-start gap-4 px-5 py-4 z-40">
+                <div className="lg:hidden absolute fixed top-20 left-0 w-full bg-gray-950 flex flex-col items-start gap-4 px-5 py-4 z-40">
                     <a href="#about" className="hover:underline underline-offset-4">Sobre mim</a>
                     <a href="#skillsets" className="hover:underline underline-offset-4">Habilidades</a>
                     <a href="#projects" className="hover:underline underline-offset-4">Projetos</a>
