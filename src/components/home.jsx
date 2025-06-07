@@ -22,7 +22,7 @@ const Home = () => {
                     <img
                         src={luizImage}
                         alt="Luiz Fritoli"
-                        className="rounded-full w-64 h-64 object-cover shadow-lg"
+                        className="rounded-full w-56 h-56 md:h-64 md:w-64 object-cover shadow-lg"
                     />
                 </motion.div>
 
