@@ -4,6 +4,7 @@ import { ArrowDown } from "lucide-react";
 import luizImage from "../assets/luizfritoli-image.png";
 import githubIcon from "../assets/github.png";
 import instagramIcon from "../assets/instagram.png";
+import linkedinIcon from "../assets/linkedin-logo.png"
 
 const Home = () => {
     return (
@@ -56,6 +57,17 @@ const Home = () => {
                             <img
                                 src={instagramIcon}
                                 alt="Instagram"
+                                className="h-12 w-12 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"
+                            />
+                        </a>
+                                                <a
+                            href="https://www.linkedin.com/in/luiz-fritoli/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src={linkedinIcon}
+                                alt="Linkedin"
                                 className="h-12 w-12 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"
                             />
                         </a>

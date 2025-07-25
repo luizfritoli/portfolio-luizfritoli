@@ -48,7 +48,7 @@ const Projects = () => {
                                 Habitflow<br />
                                 <img src={hIcon} />
                                 <p className='text-xs pt-2'>Projeto feito com
-                                    CSS, JavaScript e React.js. É uma aplicação
+                                    Tailwind CSS, JavaScript e React.js. É uma aplicação
                                     que auxilia a moldar novos hábitos, com um
                                     gráfico de gastos desnecessários, dinheiro
                                     poupado e tarefas diárias com histórico dos
